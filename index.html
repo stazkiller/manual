@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentação</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   
+    <nav class="navbar">
+        <div class="logo">
+            <h2>Trivo Documentação</h2>
+        </div>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar...">
+            <button><i class="fas fa-search"></i></button>
+        </div>
+    </nav>
+
+   
+    <div class="main-container">
+       
+        <aside class="sidebar">
+            <ul class="menu">
+                <li class="category">
+                    <span class="category-btn" data-category="promocoes">Promoções</span>
+                    <ul class="submenu" id="submenu-promocoes">
+                        <li><span class="sub-btn" data-doc="promocao-produtos">Promoção em Produtos</span></li>
+                    </ul>
+                </li>
+
+                <li class="category">
+                    <span class="category-btn" data-category="categorias">Categorias</span>
+                    <ul class="submenu" id="submenu-categorias">
+                        <li><span class="sub-btn" data-doc="cadastrar-categoria">Cadastrar uma categoria</span></li>
+                    </ul>
+                </li>
+
+                <li class="category">
+                    <span class="category-btn" data-category="produtos">Produtos</span>
+                    <ul class="submenu" id="submenu-produtos">
+                        <li><span class="sub-btn" data-doc="cadastrar-produto">Cadastrar um Produto</span></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <section class="content">
+            <div id="doc-content">
+                <h2>Bem-vindo Trivo Documentação</h2>
+                <p>Não tenha mais duvidas meu nobre.</p>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
