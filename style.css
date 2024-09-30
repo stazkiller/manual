@@ -113,3 +113,9 @@ body {
     border-radius: 4px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+
+.sub-btn.selected {
+    background-color: #1E3A5F; 
+    color: white; 
+}
